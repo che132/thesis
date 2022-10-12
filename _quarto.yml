@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "Thesis"
+  author: 
+    - name: Sergio Pérez Limón
+    - orcid: https://orcid.org/0000-0002-1893-4325
+    - email: sjp6181@psu.edu
+  date: "10/12/2022"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - HUN.qmd
+    - MAGIC.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
